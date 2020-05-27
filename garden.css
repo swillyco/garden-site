@@ -1,0 +1,72 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: seagreen;
+}
+ul{
+  list-style-type: none;
+  text-align: right;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  color: white;
+  font-family: monospace;
+  font-size: 500%;
+  text-align: left;
+}
+p{
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+.img1 {
+  background-image: url('img/img-1.jpg');
+  width: 612px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  background-image: url('img/img-1.jpg');
+  width: 306px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.img3 {
+  background-image: url('img/img-1.jpg');
+  background-size: cover;
+  width: 306px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.img4 {
+  background-image: url('img/img-1.jpg');
+  width: 230px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+.main{
+  width: 230px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 50%;
+}
